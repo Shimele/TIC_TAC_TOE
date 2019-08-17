@@ -5,7 +5,7 @@ Building a Tic tac toe game withh Javascript
 
 ## Live demo
 
-https://raw.githack.com/shloch/TIC_TAC_TOE/development/index.html
+https://raw.githack.com/Shimele/TIC_TAC_TOE/development/index.html
 
 ## Contributors
 
