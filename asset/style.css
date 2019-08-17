@@ -79,7 +79,7 @@ button{
     background-color: rgb(89, 114, 223)
 }
 input{
-    border-radius: 12px;
+    border-radius: 5px 5px 5px 5px;
     padding: 5px;
 }
 
