@@ -98,6 +98,7 @@ input{
     margin: auto;
     display: block;
     text-align: center;
+    font-family: 'Shojumaru', cursive;
   }
   
    h2 code {
@@ -106,7 +107,7 @@ input{
     display: inline-block;
     -webkit-animation: bounce 0.3s ease infinite alternate;
     font-size: 55px;
-    font-family: Shojumaru;
+    font-family: 'Shojumaru', cursive;
     color: #fff;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
       0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
@@ -194,7 +195,8 @@ input{
     table tr td {
         width: 120px;
     }
-    h2{
-        font-size: 10px;
+    h2 code{
+        font-size: 25px;
+        margin-bottom: 10%;
     }
   }
