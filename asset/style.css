@@ -21,7 +21,7 @@ body {
     border: 1px solid #1818e980;
     border-radius: 12px;
     background-color: white;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .5);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .5);
 }
 form {
     margin: 5% 0 0 0;
@@ -35,7 +35,7 @@ table tr td {
 }
 
 td {
-    box-shadow: 15px 5px 5px #D6A7CF;
+    box-shadow: 5px 5px 5px #D6A7CF;
 }
 td:hover {
     background-color: #EDEBF9;
@@ -72,12 +72,15 @@ h1 {
 }
 button{
     border-radius: 12px;
-    color: #8887A2;
+    padding: 5px;
     font-weight: bold;
-    background-color: #FEDFE6;
+    background-color: white;
+    color: #D6A7CF;
+    border: 2px solid #8887A2;
 }
 input{
     border-radius: 12px;
+    padding: 5px;
 }
 
 #animate{
@@ -109,12 +112,15 @@ input{
       0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
   }
   
+  h2 code:nth-child(1) {
+    -webkit-animation-delay: 0.1s;
+  }
    h2 code:nth-child(2) {
     -webkit-animation-delay: 0.1s;
   }
   
    h2 code:nth-child(3) {
-    -webkit-animation-delay: 0.2s;
+    -webkit-animation-delay: 0.1s;
   }
   
    h2 code:nth-child(4) {
@@ -122,11 +128,11 @@ input{
   }
   
    h2 code:nth-child(5) {
-    -webkit-animation-delay: 0.4s;
+    -webkit-animation-delay: 0.3s;
   }
   
    h2 code:nth-child(6) {
-    -webkit-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.3s;
   }
   
    h2 code:nth-child(7) {
@@ -134,11 +140,11 @@ input{
   }
   
    h2 code:nth-child(8) {
-    -webkit-animation-delay: 0.2s;
+    -webkit-animation-delay: 0.6s;
   }
   
    h2 code:nth-child(9) {
-    -webkit-animation-delay: 0.3s;
+    -webkit-animation-delay: 0.6s;
   }
   
     h2 code:nth-child(10) {
@@ -146,15 +152,15 @@ input{
   }
   
    h2 code:nth-child(11) {
-    -webkit-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.4s;
   }
   
    h2 code:nth-child(12) {
-    -webkit-animation-delay: 0.6s;
+    -webkit-animation-delay: 0.4s;
   }
   
    h2 code:nth-child(13) {
-    -webkit-animation-delay: 0.7s;
+    -webkit-animation-delay: 0.4s;
   }
   
     h2 code:nth-child(14) {
