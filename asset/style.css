@@ -180,6 +180,7 @@ input{
   span{
       color: #D6A7CF;
       font-weight: bold;
+      font-family: Montez;
       animation: blinker 1s linear infinite;
   }
   
