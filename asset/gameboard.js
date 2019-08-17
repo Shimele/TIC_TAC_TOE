@@ -53,7 +53,7 @@ var GameModule = (function() {
         let x = 1;
         cells.forEach((cell, index) => {
             cell.addEventListener('click', () => {
-                cell.style =  'color: blue; font-family:Trattatello, fantasy; font-size:40px;';       
+                cell.style =  'color: #8887A2; font-family:Trattatello, fantasy; font-size:40px;';       
                 if (!gameboard.includes(index)){
                     if (x % 2 === 0)
                     {
