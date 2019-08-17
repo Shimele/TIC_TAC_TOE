@@ -52,7 +52,8 @@ var GameModule = (function() {
         const cells = document.querySelectorAll("td")
         let x = 1;
         cells.forEach((cell, index) => {
-            cell.addEventListener('click', () => {       
+            cell.addEventListener('click', () => {
+                cell.style =  'color: blue; font-family:Trattatello, fantasy; font-size:40px;';       
                 if (!gameboard.includes(index)){
                     if (x % 2 === 0)
                     {

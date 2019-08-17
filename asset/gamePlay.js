@@ -44,7 +44,7 @@ const playerFactory = (name, playLetter = "X") => {
                 if (count == 3) {
                     for(let cell of winningTableCells){
                         console.log("cell ="+ cell);
-                        document.getElementById(cell).style =  'color: red;';
+                        document.getElementById(cell).style =  'color: olive; font-weight:bold; font-size:40px;';
                     }
                     return  true;
                     
